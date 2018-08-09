@@ -11,7 +11,7 @@ For testing :
 - Wiremock
 - Datas from reactor organization and its two first members
 
-##Running the app
+## Running the app
 Run the application on port 8080 : 
 ```
 git clone https://github.com/cmoreau004/springboot-reactor-retrofit.git
