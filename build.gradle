@@ -1,0 +1,48 @@
+buildscript {
+	ext {
+		springBootVersion = '2.0.4.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.cmoreau'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 8
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+	compile "org.springframework.boot:spring-boot-starter-web"
+	compile "org.springframework.boot:spring-boot-starter-webflux"
+	compileOnly "org.projectlombok:lombok"
+
+	compile "com.squareup.retrofit2:retrofit:${retrofitVersion}"
+	compile "com.squareup.retrofit2:converter-jackson:${retrofitVersion}"
+	compile  "com.jakewharton.retrofit:retrofit2-reactor-adapter:${retrofitReactorAdapterVersion}"
+	compile "io.springfox:springfox-swagger2:${swaggerVersion}"
+	compile "io.springfox:springfox-swagger-ui:${swaggerVersion}"
+    compile "org.springframework.boot:spring-boot-configuration-processor"
+
+	testCompile "org.springframework.boot:spring-boot-starter-test"
+	testCompile "com.github.tomakehurst:wiremock-standalone:${wiremockVersion}"
+    testCompile "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
+    testRuntime "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
+    testCompile "org.springframework.boot:spring-boot-configuration-processor"
+	test.useJUnitPlatform()
+
+}
+
+compileJava.dependsOn(processResources)

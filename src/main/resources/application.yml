@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: "dev"
+
+
+---
+
+spring:
+  profiles: test
+github.api.host: http://localhost:8081/
+
+
+---
+
+spring:
+  profiles: dev
+github.api.host: https://api.github.com/

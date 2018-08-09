@@ -1,0 +1,42 @@
+[
+  {
+    "login": "ifesdjeen",
+    "id": 12669,
+    "node_id": "MDQ6VXNlcjEyNjY5",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12669?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ifesdjeen",
+    "html_url": "https://github.com/ifesdjeen",
+    "followers_url": "https://api.github.com/users/ifesdjeen/followers",
+    "following_url": "https://api.github.com/users/ifesdjeen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ifesdjeen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ifesdjeen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ifesdjeen/subscriptions",
+    "organizations_url": "https://api.github.com/users/ifesdjeen/orgs",
+    "repos_url": "https://api.github.com/users/ifesdjeen/repos",
+    "events_url": "https://api.github.com/users/ifesdjeen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ifesdjeen/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "markpollack",
+    "id": 247466,
+    "node_id": "MDQ6VXNlcjI0NzQ2Ng==",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/247466?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/markpollack",
+    "html_url": "https://github.com/markpollack",
+    "followers_url": "https://api.github.com/users/markpollack/followers",
+    "following_url": "https://api.github.com/users/markpollack/following{/other_user}",
+    "gists_url": "https://api.github.com/users/markpollack/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/markpollack/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/markpollack/subscriptions",
+    "organizations_url": "https://api.github.com/users/markpollack/orgs",
+    "repos_url": "https://api.github.com/users/markpollack/repos",
+    "events_url": "https://api.github.com/users/markpollack/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/markpollack/received_events",
+    "type": "User",
+    "site_admin": false
+  }
+]
